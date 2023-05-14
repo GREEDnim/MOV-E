@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    padding: 0 20px;
+    background-color: #fafafa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom:20px;
+  }
+  
+  .header__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    fill: #333;
+  }
+  
+  .header__icon:hover {
+    fill: #00bcd4;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    color: #00bcd4;
+  }
+ 
+  
